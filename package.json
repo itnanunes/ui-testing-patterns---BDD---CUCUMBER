@@ -1,0 +1,18 @@
+{
+  "name": "cy-bdd-cucumber",
+  "version": "1.0.0",
+  "description": "Exemplo de BDD-CUCUMBER",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "author": "itna santana",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.14.0"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.1.2",
+    "@cypress/webpack-preprocessor": "^6.0.2"
+  }
+}
